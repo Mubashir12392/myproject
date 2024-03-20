@@ -31,7 +31,7 @@ class Cars(models.Model):
     
 
     car_name = models.CharField(max_length=50)
-    car_colour = models.CharField(max_length=50, choices= CHOICES)
+    car_colour = models.CharField(max_length=20, choices= CHOICES)
     car_price = models.IntegerField(default=0)
 
 
